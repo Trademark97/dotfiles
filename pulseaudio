@@ -1,0 +1,6 @@
+media-sound/pulseaudio equalizer jack libsamplerate
+# required by gnome-base/gnome-keyring-3.20.0::gentoo
+# required by app-crypt/libsecret-0.18.5::gentoo
+# required by gnome-extra/nm-applet-1.4.6-r1::gentoo
+# required by nm-applet (argument)
+>=app-crypt/pinentry-0.9.7-r1 gnome-keyring

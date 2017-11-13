@@ -1,0 +1,13 @@
+# required by media-libs/avidemux-plugins-2.6.20::gentoo
+=media-video/avidemux-2.6.20 ~amd64
+# required by icedtea (argument)
+=dev-java/icedtea-3.6.0 ~amd64
+# required by media-video/avidemux-2.6.20::gentoo
+# required by media-libs/avidemux-plugins-2.6.20::gentoo
+=media-libs/avidemux-core-2.6.20-r2 ~amd64
+# required by media-video/avidemux-2.6.20::gentoo
+# required by avidemux (argument)
+=media-libs/avidemux-plugins-2.6.20 ~amd64
+# required by codeblocks (argument)
+=dev-util/codeblocks-16.01 ~amd64
+#www-client/firefox ~amd64
