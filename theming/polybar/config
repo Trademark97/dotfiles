@@ -11,13 +11,13 @@
 
 [colors]
 ;background = ${xrdb:color0:#222}
-background = #16130f
+background = #004d40
 background-alt = #444
 ;foreground = ${xrdb:color7:#222}
-foreground = #339cff
-foreground-alt = #555
-primary = #339cff
-secondary = #339cff
+foreground = #b2dfdb
+foreground-alt = #80cbc4
+primary = #004d40
+secondary = #004d40
 alert = #bd2c40
 
 [bar/example]
@@ -131,8 +131,8 @@ label-mode-background = ${colors.primary}
 
 ; focused = Active workspace on focused monitor
 label-focused = %index%
-label-focused-background = #004280
-label-focused-underline = #339cff
+label-focused-background = #009688
+label-focused-underline = #00695c
 label-focused-padding = 2
 
 ; unfocused = Inactive workspace on any monitor
