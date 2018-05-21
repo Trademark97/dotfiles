@@ -1,5 +1,0 @@
-x11-misc/lightdm gtk
-# required by media-sound/pulseaudio-10.0::gentoo[alsa-plugin,alsa]
-# required by xfce-extra/xfce4-volumed-pulse-0.2.0::gentoo
-# required by xfce4-volumed-pulse (argument)
->=media-plugins/alsa-plugins-1.1.1-r1 pulseaudio
