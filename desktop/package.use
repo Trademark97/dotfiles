@@ -16,7 +16,7 @@ gnome-base/gvfs mtp udisks
 sys-auth/consolekit policykit
 dev-libs/glib dbus
 app-editors/vim perl python vim-pager
-media-libs/imlib2 gif
+media-libs/imlib2 gif jpeg png
 app-text/xmlto text
 media-fx/gimp doc mng python smp vector-icons xpm
 dev-libs/libxml2 python
