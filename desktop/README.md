@@ -1,9 +1,18 @@
-# Desktop Theming Set
+# Desktop Configuration
+## Screenshots
+### Background with system information:  
+![background and system information](https://github.com/Trademark97/docs/raw/master/desktop-desktop-and-system-info.png)
+### Firefox, PCManFM, and system information:
+![web browser, file manager, and system information](https://github.com/Trademark97/docs/raw/master/desktop-browser-pcmanfm-and-system-info.png)
 ---
-## Programs used
----
-**bspwm** - simple tiling window manager  
-**polybar** - simple status bar that supports either i3/i3-gaps or bspwm  
-**nitrogen** - program to set image as desktop wallpaper  
-**rofi** - simple, highly configurable desktop launcher  
-**rxvt-unicode (aka urxvt)** simple terminal emulator, fork of rxvt with unicode support
+<pre>
+<b>OS</b>: Linux
+<b>Distribution</b>: Gentoo <i>~amd64</i>
+<b>Kernel sources</b>: gentoo-sources
+<b>Window manager</b>: bspwm
+<b>Statusbar</b>: polybar
+<b>Terminal emulator</b>: urxvt
+<b>File manager</b>: PCManFM
+<b>GTK+ Theme</b>: Canta
+</pre>
+
