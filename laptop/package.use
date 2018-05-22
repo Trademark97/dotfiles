@@ -38,6 +38,6 @@ media-libs/harfbuzz icu
 dev-libs/xmlsec nss
 >=dev-lang/python-2.7.14-r2:2.7 sqlite
 media-libs/libpng apng
-media-libs/imlib2 gif
+media-libs/imlib2 gif jpeg png
 app-editors/vim perl python vim-pager
 app-text/ghostscript-gpl cups
