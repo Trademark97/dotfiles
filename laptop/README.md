@@ -1,9 +1,9 @@
 # Laptop Configuration
 ## Screenshots
 ### Background with system information:  
-![background and system information](https://github.com/Trademark97/docs/raw/master/screenFetch-2018-05-21_19-25-41.png)
+![background and system information](https://github.com/Trademark97/docs/raw/master/desktop-and-system-info.png)
 ### Firefox, PCManFM, and system information:
-![web browser, file manager, and system information](https://github.com/Trademark97/docs/raw/master/screenFetch-2018-05-21_19-29-31.png)
+![web browser, file manager, and system information](https://github.com/Trademark97/docs/raw/master/browser-pcmanfm-and-system-info.png)
 ---
 <pre>
 <b>OS</b>: Linux
