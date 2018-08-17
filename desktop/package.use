@@ -1,48 +1,54 @@
-media-video/avidemux nvenc opengl qt5 sdl vaapi vdpau xv
-media-libs/avidemux-core nvenc sdl vaapi vdpau xv
-sys-apps/util-linux -udev
+sys-libs/ncurses threads
+dev-libs/openssl -sslv3
+dev-libs/libnl utils
 app-admin/sudo offensive
-www-client/links jpeg lzma
-mail-client/alpine passfile smime spell
-media-libs/mesa osmesa vaapi vdpau xa
-sys-apps/qingy opensslcrypt
-x11-terms/rxvt-unicode 256-color pixbuf startup-notification xft
-x11-misc/polybar alsa mpd
-x11-libs/libfm gtk
-x11-libs/cairo xcb
-x11-libs/libxcb xkb
-x11-libs/libva opengl utils
-gnome-base/gvfs mtp udisks
-sys-auth/consolekit policykit
-dev-libs/glib dbus
-app-editors/vim perl python vim-pager
-media-libs/imlib2 gif jpeg png
-app-text/xmlto text
-media-fx/gimp doc mng python smp vector-icons xpm
-dev-libs/libxml2 python
+media-video/ffmpeg alsa amr fontconfig fribidi jack jpeg2k ladspa libass libdrm libsoxr mp3 openal opengl openssl rubberband sdl theora truetype vaapi vorbis x264 x265
+>=dev-lang/python-2.7.15 sqlite
+x11-terms/rxvt-unicode 256-color fading-colors pixbuf startup-notification xft
+mail-client/alpine passfile smime spell threads
+www-client/links fbcon gpm jpeg
+sys-apps/qingy X consolekit
+app-crypt/gnupg -smartcard
 media-libs/gegl cairo
-media-sound/ncmpcpp clock icu outputs taglib visualizer
-dev-libs/boost icu
-media-video/mpv cdaa cplugins doc dvd libmpv openal rubberband tools vaapi vdpau
-media-libs/sdl-sound mikmod vorbis
-dev-python/pillow truetype tiff
-media-libs/tiff jpeg
-media-libs/sdl-mixer vorbis
-media-video/ffmpeg alsa fontconfig fribidi fmp libass libdrm libsoxr mp3 openal opengl openssl rubberband sdl truetype vaapi vdpau vorbis x264 xcb xvid
-dev-libs/libpcre2 pcre16
-www-client/firefox dbus -gmp-autoupdate
-app-office/libreoffice dbus gtk java pdfimport
-www-plugins/adobe-flash -ppapi
-app-emulation/wine-staging gstreamer openal osmesa s3tc themes vaapi
-app-emulation/winetricks gtk
-app-arch/p7zip rar
-media-libs/harfbuzz icu
-dev-libs/xmlsec nss
->=dev-lang/python-2.7.14-r2:2.7 sqlite
-media-libs/libpng apng
-media-libs/imlib2 gif
-media-sound/audacity alsa doc ffmpeg id3tag
-media-libs/avidemux-plugins a52 aac alsa fontconfig fribidi lame libsamplerate nvenc opengl qt5 truetype vdpau x264 xv
+app-editors/vim perl python
+media-libs/mesa osmesa vaapi vdpau xa xvmc
+sys-devel/clang -llvm_targets_AMDGPU
+sys-devel/llvm -llvm_targets_AMDGPU
+media-sound/ncmpc artist-screen colors lyrics-screen mouse search-screen song-screen
+media-sound/audacity alsa jack id3tag mad
+media-libs/libsdl2 haptic
+media-video/mpv archive cdda cplugins drm dvd encode javascript jpeg libmpv openal rubberband vaapi
+media-gfx/gimp alsa jpeg2k mng python smp vector-icons wmf
+www-client/firefox -gmp-autoupdate -screenshot dbus startup-notification
+mail-client/thunderbird dbus mozdom
+media-libs/opensubdiv cuda
+media-gfx/blender collada colorio cuda cycles ffmpeg fftw jack jemalloc jpeg2k man openal openimageio opensubdiv player sdl tiff
 app-emulation/virtualbox alsa java python qt5
-media-sound/mumble speech
-app-text/ghostscript-gpl cups
+media-libs/avidemux-core nvenv sdl vaapi vdpau xv
+xfce-base/thunar -trash-panel-plugin
+media-libs/avidemux-core nvenc
+app-emulation/wine-staging gsm gstreamer openal osmesa sdl themes vaapi vkd3d vulkan
+app-emulation/winetricks gtk
+x11-libs/gdk-pixbuf X
+x11-libs/cairo X xcb
+app-text/xmlto text
+media-libs/libsdl X
+app-crypt/pinentry gtk
+media-libs/imlib2 X gif jpeg png
+dev-libs/glib dbus
+media-libs/libpng apng
+sys-auth/consolekit policykit
+media-libs/vulkan-loader X
+x11-drivers/nvidia-drivers uvm
+x11-libs/pango X
+dev-libs/libxml2 python
+x11-libs/libxcb xkb
+app-editors/vim vimpager
+x11-libs/libva X
+x11-libs/libxkbcommon X
+dev-libs/libpcre2 pcre16
+dev-java/icedtea-bin multilib -webstart
+media-sound/mumble dbus portaudio speech
+media-video/avidemux nvenc opengl qt5 sdl vaapi vdpau xv
+app-misc/emelfm2 gtk3 policykit udisks
+media-sound/cmus aac alsa cdio ffmpeg jpeg libsamplerate mp4

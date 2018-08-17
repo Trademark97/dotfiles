@@ -110,6 +110,10 @@ super + ctrl + {h,j,k,l}
 super + ctrl + {1-9}
 	bspc node -o 0.{1-9}
 
+# I like i3-like tiling better, so add in i3-style tiling overrides
+super + {h,v}
+	bspc node -p {east,south}
+
 # cancel the preselection for the focused node
 super + ctrl + space
 	bspc node -p cancel

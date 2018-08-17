@@ -1,1 +1,7 @@
-=net-irc/quassel-9999 **
+>=sys-devel/binutils-2.31 **
+>=sys-devel/gcc-8.2.0 **
+=media-fonts/tewi-font-9999::trademark **
+=media-libs/avidemux-core-9999 **
+=media-libs/avidemux-plugins-9999 **
+=media-video/avidemux-9999 **
+=media-sound/mumble-9999 **
