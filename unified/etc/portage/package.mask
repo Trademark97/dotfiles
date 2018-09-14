@@ -1,0 +1,8 @@
+media-sound/pulseaudio
+=media-sound/spotify-1.0.88-r1
+sys-apps/gentoo-systemd-integration
+sys-apps/systemd
+sys-power/upower
+*/*::4nykey
+# uncomment for desktop
+# */*::steam-overlay
