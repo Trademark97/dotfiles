@@ -1,0 +1,8 @@
+# unmask these four lines if on the desktop
+# games-util/steam-client-meta::steam-overlay
+# games-util/steam-games-meta::steam-overlay
+# games-util/steam-launcher::steam-overlay
+# games-util/steam-meta::steam-overlay
+media-fonts/noto-emoji::4nykey
+media-fonts/tewi-font::4nykey
+x11-themes/papirus-icon-theme::4nykey
