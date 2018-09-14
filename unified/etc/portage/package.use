@@ -1,0 +1,59 @@
+app-accessibility/espeak portaudio
+app-arch/p7zip rar
+app-editors/gvim perl python
+app-editors/vim perl python vim-pager
+# uncomment this line on desktop
+# app-emulation/virtualbox java python
+# uncomment this version on desktop
+# app-emulation/wine-staging gsm gstreamer openal osmesa themes vkd3d vulkan
+# uncomment this version on laptop
+app-emulation/wine-staging gsm gstreamer openal osmesa themes vulkan
+app-office/libreoffice java pdfimport
+dev-java/icedtea-bin multilib
+dev-lang/python sqlite
+dev-libs/boost icu
+dev-libs/libnl utils
+dev-libs/libxml2 icu
+dev-libs/openssl -sslv3
+dev-python/PyQt5 webchannel webengine
+dev-python/markdown pygments
+dev-qt/qtwebchannel qml
+dev-qt/qtwebengine widgets
+dev-util/cmake -qt5
+mail-client/thunderbird mozdom
+media-gfx/gimp aalib doc jpeg2k postscript python smp vector-icons webp wmf xpm
+# uncomment this line on desktop
+# media-libs/avidemux-core nvenc
+# uncomment this version on desktop
+# media-libs/avidemux-plugins amr fdk fontconfig fribidi jack lame libsamplerate nvenc opus vpx x265
+# uncomment this version on laptop
+# media-libs/avidemux-plugins amr fdk fontconfig fribidi jack lame libsamplerate opus vpx x265
+media-libs/freetype harfbuzz
+media-libs/harfbuzz icu
+media-libs/libsdl2 haptic
+media-libs/mesa -vaapi osmesa
+media-libs/sdl-sound mikmod
+media-sound/audacity id3tag jack
+media-sound/mumble jack portaudio speech
+media-sound/ncmpcpp clock icu outputs taglib visualizer
+# uncomment this line on desktop
+# media-video/avidemux nvenc
+# uncomment this version on desktop
+# media-video/ffmpeg amr bs2b fdk fontconfig fribidi gsm jack jpeg2k ladspa libcaca libdrm libsoxr libv4l lzma nvenc openal openh264 openssl opus rubberband speex theora twolame vpx webp x265
+# uncomment this version on laptop
+#media-video/ffmpeg amr bs2b fdk fontconfig fribidi gsm jack jpeg2k ladspa libcaca libdrm libsoxr libv4l lzma openal openh264 openssl opus rubberband speex theora twolame vpx webp x265
+media-video/mpv archive cplugins drm jack javascript libcaca libmpv openal rubberband tools zsh-completion
+media-video/vlc archive bidi cddb faad fdk fontconfig gstreamer jack libass libcaca live lua matroska mtp opus postproc projectm schroedinger sdl-image skins soxr speex taglib theora twolame vpx x265
+net-print/hplip scanner
+sys-apps/qingy opensslcrypt
+sys-apps/util-linux -udev
+sys-kernel/gentoo-sources experimental
+sys-libs/ncurses -gpm
+sys-libs/zlib minizip
+www-client/firefox -gmp-autoupdate -screenshot
+www-client/links fbcon
+# uncomment on desktop
+# x11-drivers/nvidia-drivers uvm
+x11-misc/polybar i3wm ipc mpd network
+x11-terms/rxvt-unicode 256-color fading-colors pixbuf
+xfce-base/thunar -trash-panel-plugin
