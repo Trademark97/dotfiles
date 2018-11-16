@@ -1,5 +1,5 @@
 media-sound/pulseaudio
-=media-sound/spotify-1.0.88-r1
+>=net-libs/nodejs-9
 sys-apps/gentoo-systemd-integration
 sys-apps/systemd
 sys-power/upower
