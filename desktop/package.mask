@@ -1,7 +1,8 @@
+>app-admin/sysklogd-1.5.1-r1
 media-sound/pulseaudio
 sys-apps/gentoo-systemd-integration
 sys-apps/systemd
-=sys-devel/binutils-2.31.9999
-=sys-devel/binutils-9999
-=sys-devel/gcc-9999
+sys-fs/udev
+sys-fs/udisks
 sys-power/upower
+
