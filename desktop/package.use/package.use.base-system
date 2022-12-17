@@ -1,0 +1,5 @@
+app-admin/gnupg tools
+dev-libs/libnl utils
+sys-kernel/gentoo-sources experimental
+sys-libs/glibc -multiarch
+sys-libs/readline utils
