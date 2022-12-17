@@ -1,0 +1,6 @@
+bspwm (deprecated)
+==================
+
+Given how few commits are made upstream to bspwm any more (and with no sign of even a point release, two years on)  
+I feel it is necessary to abandon it for my first WM, i3. If bspwm should _ever_ see actual signs of life  
+I _may_ revisit this configuration, but until future notice, this configuration will _not_ receive _any_ updates
