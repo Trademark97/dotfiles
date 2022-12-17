@@ -44,9 +44,9 @@ padding-right = 0
 module-margin-left = 1
 module-margin-right = 2
 
-font-0 = lucy tewi:pixelsize=11;1
+font-0 = tewi:pixelsize=11;1
 font-1 = unifont:fontformat=truetype:size=8:antialias=false;0
-font-2 = FontAwesome:pixelsize=10;1
+;font-2 = FontAwesome:pixelsize=10;1
 
 modules-left = bspwm
 modules-center = date
@@ -91,7 +91,7 @@ interval = 25
 
 mount-0 = /
 
-label-mounted =  %mountpoint%%{F-}: %percentage_used%%
+label-mounted = HDD %mountpoint%%{F-}: %percentage_used%%
 label-unmounted = %mountpoint% not mounted
 label-unmounted-foreground = ${colors.foreground-alt}
 
@@ -182,7 +182,7 @@ format = <label> <bar>
 label = 
 
 bar-width = 10
-bar-indicator = |
+bar-indicator = |||
 bar-indicator-foreground = #ff
 bar-indicator-font = 2
 bar-fill = ─
@@ -200,14 +200,14 @@ card = intel_backlight
 [module/cpu]
 type = internal/cpu
 interval = 2
-format-prefix = "C "
+format-prefix = "CPU "
 format-prefix-foreground = ${colors.foreground-alt}
 label = %percentage%%
 
 [module/memory]
 type = internal/memory
 interval = 2
-format-prefix = "M "
+format-prefix = "RAM "
 format-prefix-foreground = ${colors.foreground-alt}
 label = %percentage_used%%
 
@@ -255,7 +255,7 @@ date-alt = " %Y-%m-%d"
 time = %H:%M
 time-alt = %H:%M:%S
 
-label =  %time%
+label = %time%
 
 [module/volume]
 #type = internal/volume
@@ -273,12 +273,12 @@ headphone-id = 1
 mapped = true
 
 format-volume = <label-volume> <bar-volume>
-label-volume = 
+label-volume = V
 label-volume-foreground = ${root.foreground}
 
-format-muted-prefix = " "
+format-muted-prefix = "M "
 format-muted-foreground = ${colors.foreground-alt}
-label-muted =  off
+label-muted = sound off
 
 bar-volume-width = 10
 bar-volume-foreground-0 = #55aa55
@@ -308,18 +308,18 @@ format-charging-underline = #ffb52a
 
 format-discharging = <ramp-capacity> <label-discharging>
 
-format-full-prefix = " "
+format-full-prefix = "BAT "
 format-full-prefix-foreground = ${colors.foreground-alt}
 format-full-underline = ${self.format-charging-underline}
 
-ramp-capacity-0 = 
-ramp-capacity-1 = 
-ramp-capacity-2 = 
+ramp-capacity-0 = B0
+ramp-capacity-1 = B1
+ramp-capacity-2 = FB
 ramp-capacity-foreground = ${colors.foreground-alt}
 
-animation-charging-0 = 
-animation-charging-1 = 
-animation-charging-2 = 
+animation-charging-0 = |..
+animation-charging-1 = ||.
+animation-charging-2 = |||
 animation-charging-foreground = ${colors.foreground-alt}
 animation-charging-framerate = 750
 
