@@ -1,0 +1,10 @@
+app-admin/sudo offensive
+app-editors/vim X gpm lua perl python tcl vim-pager
+dev-libs/boost icu lzma numpy python zstd
+media-libs/libglvnd X
+media-libs/libva X opengl
+media-libs/mesa osmesa vulkan
+www-client/links gpm libevent lzma zstd
+www-client/w3m X gdk-pixbuf lynxkeymap xface
+x11-libs/cairo X
+x11-libs/gdk-pixbuf jpeg

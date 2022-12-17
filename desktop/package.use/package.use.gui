@@ -1,0 +1,13 @@
+app-text/xmlto text
+media-fonts/fontawesome X ttf
+media-fonts/noto-emoji X
+media-fonts/roboto X
+media-libs/imlib2 jpeg2k lxma
+x11-base/xorg-server suid
+x11-libs/libxkbcommon X
+x11-libs/pango X
+x11-misc/polybar alsa curl i3wm ipc network
+x11-misc/urxvt-perls deprecated
+x11-terms/rxvt-unicode 256-color fading-colors gdk-pixbuf perl startup-notification unicode3 xft
+x11-themes/arc-theme gtk2 gtk3
+x11-wm/i3 doc
