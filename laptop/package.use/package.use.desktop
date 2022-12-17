@@ -1,0 +1,42 @@
+app-admin/testdisk jpeg ntfs
+app-arch/p7zip rar
+app-crypt/gcr gtk
+app-emulation/qemu alsa lzo opengl plugins python snappy spice ssh udev usb virgl zstd
+app-emulation/wine-staging osmesa perl usb
+app-emulation/winetricks gtk
+app-mobilephone/heimdall gui
+app-office/libreoffice coinor cups gstreamer gtk pdfimport
+app-text/ghostscript-gpl cups
+app-text/poppler cairo
+dev-libs/xmlsec nss
+dev-python/pillow tiff truetype
+dev-qt/qtgui jpeg
+dev-qt/qtmultimedia alsa gstreamer
+games-emulation/dosbox-staging network opengl
+games-util/game-device-udev-rules -acl
+games-util/steam-client-meta trayicon
+mail-client/thunderbird dbus
+media-gfx/gimp alsa jpeg2k postscript webp wmf xpm
+media-libs/avidemux-core vaapi
+media-libs/avidemux-plugins a52 alsa amr dts fdk fontconfig fribidi jack lame libsamplerate opengl opus qt5 truetype vorbis vpx x264 x265 xvid
+media-libs/gegl cairo
+media-libs/harfbuzz icu
+media-libs/libsdl2 X haptic opengl
+media-libs/libvpx postproc
+media-libs/portaudio alsa
+media-libs/sdl-mixer vorbis
+media-libs/sdl-sound mikmod vorbis
+media-libs/tiff jpeg
+media-sound/apulse sdk
+media-sound/audacity alsa ffmpeg id3tag jack mad ogg vamp
+media-video/avidemux opengl qt5 vaapi
+media-video/ffmpeg X alsa amr bs2b fdk fontconfig fribidi gsm jack ladspa libass libcaca libdrm libsoxr lzma mp3 openal opengl openssl opus rubberband speex theora truetype vaapi vorbis vpx vulkan webp x264 x265 xvid
+media-video/makemkv -java
+media-video/mpv archive cdda dvd jack javascript jpeg libcaca openal opengl rubberband tools vaapi
+net-dns/avahi python
+net-irc/quassel -crypt gui -server
+net-print/cups X dbus usb
+net-print/cups-filters dbus jpeg pdf perl
+net-print/hplip libnotify scanner
+sys-apps/dbus X
+www-client/firefox dbus
