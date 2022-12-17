@@ -1,7 +1,0 @@
-# base system flags
-app-admin/gnupg tools
-app-portage/gemato -python_targets_python2_7
-dev-libs/libnl utils
-sys-apps/portage -python_targets_python2_7
-sys-libs/glibc -multiarch
-sys-libs/readline utils
